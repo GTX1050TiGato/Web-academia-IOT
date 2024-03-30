@@ -30,6 +30,7 @@ body {
     height: 100vh;
     width: 25vw;
     position: absolute;
+    -webkit-transition: all 2.0s;
 }
 
 .qrcode {
@@ -154,6 +155,7 @@ scale: 1.8;
     position: absolute;
     left: 54%;
     top: -4%;
+    -webkit-transition: all 0.5s;
 
 }
 
@@ -206,6 +208,7 @@ a {
         left: 19%;
         width: 63vw;
         border-radius: 10%;
+
     }
     .textoQRsite {
         bottom: 15vh;
