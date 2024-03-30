@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+    overflow: hidden;
   }
 
 
@@ -17,9 +17,11 @@ body {
     opacity: 40%;
     display: flex;
     background-color: black;
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    size: auto;
+    
 }
 
 .filtropreto2 {
@@ -29,7 +31,7 @@ body {
     background-color: black;
     height: 100vh;
     width: 25vw;
-    position: absolute;
+    position: fixed;
     -webkit-transition: all 2.0s;
 }
 
@@ -37,7 +39,7 @@ body {
     background-image: url(./qr-code-plus.png);
     width: 12vw;
     margin-left: 5%;
-    position: absolute;
+    position: fixed;
     border-radius: 10%;
     left: 0;
     margin-top: 9%;
@@ -55,7 +57,7 @@ body {
 .qrcode2 {
     background-image: url(./qr-code-plus.png);
     width: 12vw;
-    position: absolute;
+    position: fixed;
     margin: 5%;
     bottom: 0%;
     border-radius: 10%;
@@ -70,7 +72,7 @@ body {
 }
 
 .linhaQRcode {
-position: absolute;
+position: fixed;
 width: 20vw;
 bottom: 35%;
 margin-bottom: 3%;
@@ -189,73 +191,95 @@ a {
 
 @media screen  and (max-width: 768px) {
     .qrcode {
-        bottom: 27vh;
-        scale: 1.5;
-        left: 25%;
-        
+        bottom: 30vh;
+        scale: 2;
+        left: 30%;
+        position: fixed;
+        padding: 0;
+        margin: 0;
     }
 
 
     .qrcode2 {
-        bottom: 22.5vh;
-        scale: 1.5;
-        left: 55%;
-        
+        bottom: 30vh;
+        scale: 2;
+        left: 60%;
+        position: fixed;
+        padding: 0;
+        margin: 0;
     }
     .filtropreto2 {
-        height: 40%;
-        bottom: 5vh;
+        height: 35%;
+        bottom: 6vh;
         left: 19%;
-        width: 63vw;
+        width: 67%;
         border-radius: 10%;
+        opacity: 82%;
 
     }
     .textoQRsite {
-        bottom: 15vh;
-        left: 17%;
-        scale: 0.7;
+        bottom: 15%;
+        left: 12%;
+        scale: 0.6;
+        padding: 0;
+        margin: 0;
+        position: fixed;
     }
 
     .linhaQRcode {
-        bottom: 19vh;
-        left: 25%;
-        scale: 1; 
+        bottom: 20%;
+        left: 27%;
+        scale: 1.5;
+        padding: 0;
+        margin: 0;
+
     }
 
     .linhaQRcode2 {
-        top: 77.8vh;
-        left: 55%;
-        scale: 1; 
+        top: 79.7%;
+        left: 58%;
+        scale: 1.5;
+        padding: 0;
+        margin: 0;
+        position: fixed;
     }
 
     .textoQRapp {
-        bottom: 15vh;
-        left: 49%;
-        scale: 0.7;
+        bottom: 15%;
+        left: 47%;
+        scale: 0.6;
+        padding: 0;
+        margin: 0;
+        position: fixed;
     }
 
     .fa-solid{
-        top: 80%;
-        left: 52%;
-        scale: 2.0;
+        top: 87%;
+        left: 50%;
+        scale: 1.5;
+        position: fixed;
+        padding: 0;
+        margin: 0;
     }
 
     .downloadp{
-        top: 87%;
-        left: 51.3%;
+        top: 90%;
+        left: 45%;
        
     }
 
     .Logo{
-        left: 30%;
+        left: 15%;
+        top: 8%;
     }
 
 
 
     .NumeroPessoasAcademia {
-        scale: 0.8;
-        left: 20%;
-        top: 30%;
+        scale: 1;
+        left: 10%;
+        top: 40%;
+        text-align: center;
     }
 
     .NumeroPessoasAcademia:hover {
@@ -264,15 +288,20 @@ a {
 
 
     .NumeroPessoasAcademiaLinha{
-        left: 27%;
-        scale: 1.3;
-        top: 38%;
+        left: 13vw;
+        scale: 0.8;
+        top: 49%;
+        position: fixed;
     }
 
     .NumeroPessoas_digitos {
-        top: 45%;
-        left: 49%;
+        top: 52%;
+        left: 48%;
+        text-align: center;
+        scale: 2;
     }
+
+
 
 }
     
