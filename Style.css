@@ -276,7 +276,7 @@ a {
     .downloadp{
         
         top: 90%;
-        left: 42vw;
+        left: 40vw;
         position: absolute;
 
 
@@ -303,6 +303,8 @@ a {
         left: 8vw;
         top: 40%;
         text-align: center;
+        
+        -webkit-text-stroke: 1px black;
     }
 
     .NumeroPessoasAcademia:hover {
