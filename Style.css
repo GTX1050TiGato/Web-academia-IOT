@@ -312,6 +312,9 @@ a {
         position: fixed;
         width: 95%;
     }
+        .NumeroPessoasAcademiaLinha:hover{
+    scale: 0.9;
+    }
 
     .NumeroPessoas_digitos {
         top: 52%;
