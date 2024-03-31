@@ -254,11 +254,13 @@ a {
 
     .textoQRapp {
         bottom: 15%;
-        left: 43%;
+        left: 43vw;
         scale: 0.5;
+    
         padding: 0;
         margin: 0;
         position: fixed;
+        text-align: center;
         
     }
 
@@ -274,6 +276,9 @@ a {
     .downloadp{
         top: 90%;
         left: 45vw;
+        text-align: center;
+        position: fixed;
+
        
     }
 
