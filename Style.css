@@ -219,7 +219,7 @@ a {
     }
     .textoQRsite {
         bottom: 15%;
-        left: 12%;
+        left: 10%;
         scale: 0.5;
         padding: 0;
         margin: 0;
@@ -269,8 +269,11 @@ a {
     }
 
     .Logo{
-        left: 15%;
+        left: 0%;
         top: 0%;
+        padding: 0%;
+        margin: 0%;
+        
     }
 
 
