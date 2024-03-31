@@ -225,13 +225,12 @@ a {
 
     }
     .textoQRsite {
+        position: absolute;
+        left: 10%;
+        transform: translateX(-50%);
         bottom: 15%;
-        left: 10vw;
+        margin-left: 16vw; /* Ajuste conforme necessário */
         scale: 0.5;
-        padding: 0;
-        margin: 0;
-        position: fixed;
-        text-align: center;
     }
 
     .linhaQRcode {
@@ -253,33 +252,27 @@ a {
     }
 
     .textoQRapp {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         bottom: 15%;
-        left: 43vw;
+        margin-left: 8vw; /* Ajuste conforme necessário */
         scale: 0.5;
-    
-        padding: 0;
-        margin: 0;
-        position: fixed;
-        text-align: center;
         
     }
 
     .fa-solid{
-        top: 86%;
-        left: 50%;
-        scale: 1.5;
+        top: 85%; /* Mesmo valor que .downloadp */
+        left: 50%; /* Ajuste conforme necessário */
+        transform: translateX(-50%); /* Para centralizar horizontalmente */
         position: absolute;
-        padding: 0;
-        margin: 0;
     }
 
     .downloadp{
-        
         top: 90%;
-        left: 40vw;
+        left: 43vw; /* Ajuste conforme necessário */
         position: absolute;
-
-
+        
        
     }
 
@@ -308,7 +301,7 @@ a {
     }
 
     .NumeroPessoasAcademia:hover {
-        scale: 1.3;
+        scale: 0.8;
     }
 
 
@@ -317,7 +310,7 @@ a {
         scale: 0.8;
         top: 49%;
         position: fixed;
-        width: 100%;
+        width: 95%;
     }
 
     .NumeroPessoas_digitos {
