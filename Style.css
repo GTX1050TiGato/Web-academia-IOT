@@ -226,11 +226,12 @@ a {
     }
     .textoQRsite {
         bottom: 15%;
-        left: 6vw;
+        left: 10vw;
         scale: 0.5;
         padding: 0;
         margin: 0;
         position: fixed;
+        text-align: center;
     }
 
     .linhaQRcode {
@@ -253,11 +254,12 @@ a {
 
     .textoQRapp {
         bottom: 15%;
-        left: 47%;
+        left: 43%;
         scale: 0.5;
         padding: 0;
         margin: 0;
         position: fixed;
+        
     }
 
     .fa-solid{
@@ -286,7 +288,7 @@ a {
 
 
     .NumeroPessoasAcademia {
-        scale: 0.8;
+        scale: 0.6;
         left: 10vw;
         top: 40%;
         text-align: center;
@@ -298,7 +300,7 @@ a {
 
 
     .NumeroPessoasAcademiaLinha{
-        left: 3vw;
+        left: 4vw;
         scale: 0.8;
         top: 49%;
         position: fixed;
