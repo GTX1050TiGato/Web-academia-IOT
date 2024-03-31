@@ -190,6 +190,13 @@ a {
 
 
 @media screen  and (max-width: 768px) {
+    
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    
     .qrcode {
         bottom: 27vh;
         scale: 2;
@@ -211,7 +218,7 @@ a {
     .filtropreto2 {
         height: 35%;
         bottom: 6vh;
-        left: 19%;
+        left: 19vw;
         width: 67%;
         border-radius: 10%;
         opacity: 82%;
@@ -219,7 +226,7 @@ a {
     }
     .textoQRsite {
         bottom: 15%;
-        left: 10%;
+        left: 6vw;
         scale: 0.5;
         padding: 0;
         margin: 0;
@@ -280,7 +287,7 @@ a {
 
     .NumeroPessoasAcademia {
         scale: 1;
-        left: 10%;
+        left: 0vw;
         top: 40%;
         text-align: center;
     }
@@ -291,7 +298,7 @@ a {
 
 
     .NumeroPessoasAcademiaLinha{
-        left: 10%;
+        left: 0%;
         scale: 0.8;
         top: 49%;
         position: fixed;
@@ -299,7 +306,7 @@ a {
 
     .NumeroPessoas_digitos {
         top: 52%;
-        left: 48%;
+        left: 45vw;
         text-align: center;
         scale: 2;
     }
