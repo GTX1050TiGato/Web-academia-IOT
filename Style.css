@@ -276,7 +276,7 @@ a {
     }
 
     .Logo{
-        left: 0%;
+        left: 3vw;
         top: 0%;
         padding: 0%;
         margin: 0%;
@@ -286,8 +286,8 @@ a {
 
 
     .NumeroPessoasAcademia {
-        scale: 1;
-        left: 0vw;
+        scale: 0.8;
+        left: 10vw;
         top: 40%;
         text-align: center;
     }
@@ -298,7 +298,7 @@ a {
 
 
     .NumeroPessoasAcademiaLinha{
-        left: 0%;
+        left: 3vw;
         scale: 0.8;
         top: 49%;
         position: fixed;
@@ -308,7 +308,7 @@ a {
         top: 52%;
         left: 45vw;
         text-align: center;
-        scale: 2;
+        scale: 1.5;
     }
 
 
