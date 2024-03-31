@@ -239,7 +239,7 @@ a {
         scale: 1.5;
         padding: 0;
         margin: 0;
-
+        white-space: nowrap; /* Impede a quebra de linha */
     }
 
     .linhaQRcode2 {
@@ -258,7 +258,7 @@ a {
         bottom: 15%;
         margin-left: 8vw; /* Ajuste conforme necessário */
         scale: 0.5;
-        
+        white-space: nowrap; /* Impede a quebra de linha */
     }
 
     .fa-solid{
