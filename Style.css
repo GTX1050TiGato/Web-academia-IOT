@@ -265,21 +265,27 @@ a {
     }
 
     .fa-solid{
-        top: 87%;
+        top: 86%;
         left: 50%;
         scale: 1.5;
-        position: fixed;
+        position: absolute;
         padding: 0;
         margin: 0;
     }
 
     .downloadp{
+        
         top: 90%;
         left: 45vw;
-        text-align: center;
-        position: fixed;
+        position: absolute;
+
 
        
+    }
+
+    .divdownload {
+        position: relative;
+        left: 50%;
     }
 
     .Logo{
