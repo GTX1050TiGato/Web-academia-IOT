@@ -304,6 +304,7 @@ a {
         scale: 0.8;
         top: 49%;
         position: fixed;
+        width: 100%;
     }
 
     .NumeroPessoas_digitos {
