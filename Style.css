@@ -209,9 +209,10 @@ a {
 
 
     .qrcode2 {
+
         bottom: 27vh;
         scale: 2;
-        left: 62%;
+        left: 60%;
         position: fixed;
         padding: 0;
         margin: 0;
@@ -219,10 +220,13 @@ a {
     .filtropreto2 {
         height: 35%;
         bottom: 6vh;
-        left: 19vw;
+        transform: translateX(25%);
         width: 67%;
         border-radius: 10%;
         opacity: 82%;
+        align-self: center;
+        align-content: center;
+        
 
     }
     .textoQRsite {
@@ -236,7 +240,7 @@ a {
 
     .linhaQRcode {
         bottom: 20%;
-        left: 27%;
+        left: 25%;
         scale: 1.5;
         padding: 0;
         margin: 0;
@@ -264,8 +268,9 @@ a {
 
     .fa-solid{
         top: 85%; /* Mesmo valor que .downloadp */
-        left: 50%; /* Ajuste conforme necessário */
-        transform: translateX(-50%); /* Para centralizar horizontalmente */
+        left: 45vw; /* Ajuste conforme necessário */
+        text-align: center;
+        align-items: center;
         position: absolute;
     }
 
@@ -273,7 +278,8 @@ a {
         top: 90%;
         left: 43vw; /* Ajuste conforme necessário */
         position: absolute;
-        
+        text-align: center;
+        align-items: center;
        
     }
 
@@ -283,10 +289,11 @@ a {
     }
 
     .Logo{
-        left: 5vw;
+        
         top: 0%;
         padding: 0%;
         margin: 0%;
+        transform: translateX(-50%);
         
     }
 
@@ -294,11 +301,12 @@ a {
 
     .NumeroPessoasAcademia {
         scale: 0.6;
-        left: 8vw;
+        transform: translateX(-80%);
         top: 40%;
         text-align: center;
         text-size-adjust: auto;
         text-shadow: 5px 5px 5px black;
+        white-space: nowrap;
     }
 
     .NumeroPessoasAcademia:hover {
@@ -314,7 +322,7 @@ a {
         width: 95%;
     }
         .NumeroPessoasAcademiaLinha:hover{
-    scale: 0.9;
+        scale: 0.9;
     }
 
     .NumeroPessoas_digitos {
@@ -322,6 +330,7 @@ a {
         left: 45vw;
         text-align: center;
         scale: 1.5;
+        z-index: 9999999999999;
     }
 
 
