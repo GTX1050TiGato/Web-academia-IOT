@@ -42,7 +42,7 @@ body {
     position: fixed;
     border-radius: 10%;
     left: 0;
-    margin-top: 9%;
+    margin-top: 7%;
     -webkit-transition: all 0.5s;
     
 }
@@ -155,18 +155,25 @@ scale: 1.8;
 
 .Logo {
     position: absolute;
-    left: 54%;
+    left: 52%;
     top: -4%;
     -webkit-transition: all 0.5s;
 
+}
+
+.Logo:hover{
+    position: absolute;
+    scale: 1.1;
+   
+    
 }
 
 .fa-solid {
     color: white;
     scale: 2;
     position: fixed;
-    top: 35%;
-    margin: 3%;
+    top: 41%;
+    margin-left: 3.3%;
     -webkit-transition: all 0.5s;
 }
 
@@ -191,6 +198,16 @@ a {
 
 @media screen  and (max-width: 768px) {
     
+    .center {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 100vh; /* Altura total da viewport */
+    }
+
+
+
+
     * {
         padding: 0;
         margin: 0;
@@ -240,15 +257,17 @@ a {
         padding: 0;
         margin: 0;
         white-space: nowrap; /* Impede a quebra de linha */
+        
     }
 
     .linhaQRcode2 {
-        top: 79.7%;
+        top: 79.58%;
         left: 58%;
         scale: 1.5;
         padding: 0;
         margin: 0;
-        position: fixed;
+        white-space: nowrap; /* Impede a quebra de linha */
+        
     }
 
     .textoQRapp {
@@ -270,9 +289,9 @@ a {
 
     .downloadp{
         top: 90%;
-        left: 43vw; /* Ajuste conforme necessário */
+        left: 45vw; /* Ajuste conforme necessário */
         position: absolute;
-        
+        text-align: center;
        
     }
 
@@ -282,10 +301,13 @@ a {
     }
 
     .Logo{
-        left: 5vw;
+        left: 15vw;
         top: 0%;
         padding: 0%;
         margin: 0%;
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
         
     }
 
