@@ -326,6 +326,7 @@ a {
         top: 49%;
         position: fixed;
         width: 95%;
+        z-index: -1;
     }
         .NumeroPessoasAcademiaLinha:hover{
         scale: 0.9;
@@ -336,7 +337,7 @@ a {
         left: 45vw;
         text-align: center;
         scale: 1.5;
-        z-index: 9999999999999;
+        z-index: 9;
     }
 
 
