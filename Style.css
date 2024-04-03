@@ -81,6 +81,7 @@ margin-left: 1%;
 h1{
     position: fixed;
     color: white;
+    text-align: center;
     
    
 
@@ -201,7 +202,7 @@ a {
     .qrcode {
         bottom: 27vh;
         scale: 2;
-        left: 30%;
+        left: 27%;
         position: fixed;
         padding: 0;
         margin: 0;
@@ -231,7 +232,7 @@ a {
     }
     .textoQRsite {
         position: absolute;
-        left: 10%;
+        left: 5%;
         transform: translateX(-50%);
         bottom: 15%;
         margin-left: 16vw; /* Ajuste conforme necessário */
@@ -258,7 +259,7 @@ a {
 
     .textoQRapp {
         position: absolute;
-        left: 50%;
+        left: 47%;
         transform: translateX(-50%);
         bottom: 15%;
         margin-left: 8vw; /* Ajuste conforme necessário */
@@ -307,10 +308,15 @@ a {
         text-size-adjust: auto;
         text-shadow: 5px 5px 5px black;
         white-space: nowrap;
+        align-content: center;
+        align-self: center;
+        
+        
     }
 
     .NumeroPessoasAcademia:hover {
-        scale: 0.8;
+        scale: 0.6;
+        text-shadow: 0px 0px 50px #1ba4ff;
     }
 
 
