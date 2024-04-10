@@ -132,7 +132,7 @@ position: fixed;
 margin-left: 0%;
 padding-top: 1%;
 top: 0%;
-width: auto;
+
 }
 
 .NumeroPessoasAcademia {
@@ -230,9 +230,6 @@ a {
 @media screen  and (max-width: 768px) {
     
 
-body{
-    background-image: url('/backgroud\ cell.jpeg');
-}
 
     * {
         padding: 0;
@@ -262,7 +259,7 @@ body{
         margin: 0;
     }
     .filtropreto2 {
-        height: 35%;
+        height: 38vh;
         bottom: 6vh;
         left: 19%;
         width: 67%;
@@ -276,7 +273,7 @@ body{
         right: 0%;
         padding: 10px 0;
         margin-top: 0%;
-        top: 63%;
+        top: 60%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
@@ -317,11 +314,11 @@ body{
     }
 
     .textoQRapp {
-        position: absolute;
-        right: 40%;
+        position: relative;
+        right: 10%;
         padding: 10px 0;
         
-        top: 63%;
+        top: 40%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
