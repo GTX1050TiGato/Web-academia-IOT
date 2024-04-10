@@ -16,7 +16,7 @@ body {
     width: 100%;
     position: fixed;
     size: auto;
-    background-image: url(backgroud.jpeg);
+    background-image: url(/backgroud.jpeg);
     background-size: cover;
 
   }
@@ -193,7 +193,7 @@ scale: 1.8;
     color: white;
     scale: 2;
     position: relative;
-    left: 25px;
+    left: 5px;
     -webkit-transition: all 0.5s;
 }
 
@@ -239,6 +239,7 @@ body{
         margin: 0;
         max-width: 100vw;
         max-height: 100vh;
+        
     }
     
     
@@ -269,14 +270,13 @@ body{
         opacity: 82%;
         position: fixed;
     }
-    .textoQRsite {
-        
-        position: relative;
-        left: 30%;
-        width: auto;
 
+    .textoQRsite {
+        position: absolute;
+        right: 0%;
+        padding: 10px 0;
         margin-top: 0%;
-        top: 30%;
+        top: 63%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
@@ -298,7 +298,15 @@ body{
         bottom: 7vh;
         position: fixed;
     }
-
+    .qr2{
+        height: 30%;
+        left: 45%;
+        
+        width: 70%;
+        border-radius: 10%;
+        bottom: 7vh;
+        position: fixed;
+    }
     .linhaQRcode2 {
         top: 79.7%;
         left: 58%;
@@ -309,17 +317,17 @@ body{
     }
 
     .textoQRapp {
-        position: relative;
-        right: 15%;
+        position: absolute;
+        right: 40%;
+        padding: 10px 0;
         
-        
-        top: 45%;
+        top: 63%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
 
     .fa-solid{
-       
+       left: 50%;
         position: absolute;
     }
 
@@ -349,14 +357,26 @@ body{
      scale: 1.5;
             
     }
+    .DivLogo{
+        
+        width: 100%;
+        height: 30%;
+        top: 0%;
+        z-index: 5;
+        position: fixed;
+    }
 
     .Logo{
+        align-self: center;
         
-        left: 0%  ;
-        top: -10%;
+        left: 0%;
+        bottom: 80%;
         padding: 0%;
         margin: 0%;
         scale: 0.5;
+        
+        position: relative;
+        
     }
 
 
