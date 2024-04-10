@@ -213,7 +213,7 @@ z-index: 5;
 position: absolute;
 -webkit-transition: 500ms all;
 margin-left: 1%;
-top: 90%;
+top: 110%;
 }
 .div_app:hover{
     scale: 1.5;
