@@ -16,7 +16,7 @@ body {
     width: 100%;
     position: fixed;
     size: auto;
-    background-image: url(/backgroud.jpeg);
+    background-image: url(backgroud.jpeg);
     background-size: cover;
 
   }
