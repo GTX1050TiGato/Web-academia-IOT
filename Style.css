@@ -4,23 +4,35 @@
 }
 
 body {
-    background-image: url('https://tecnofit-site.s3.sa-east-1.amazonaws.com/media/files/2023/07/18165203/iluminacao-academia-2048x1367.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
+
+    
+  }
+
+  .bgimage{
+
+    filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    size: auto;
+    background-image: url(/backgroud.jpeg);
     background-size: cover;
-    overflow: hidden;
+
   }
 
 
 .filtropreto1 {
     color: black;
-    opacity: 40%;
+    opacity: 30%;
     display: flex;
     background-color: black;
     height: 100%;
     width: 100%;
     position: fixed;
     size: auto;
+    
+
     
 }
 
@@ -33,6 +45,13 @@ body {
     width: 25vw;
     position: fixed;
     -webkit-transition: all 2.0s;
+    
+}
+
+.qr1{
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 2%;
 }
 
 .qrcode {
@@ -42,7 +61,7 @@ body {
     position: fixed;
     border-radius: 10%;
     left: 0;
-    margin-top: 9%;
+    
     -webkit-transition: all 0.5s;
     
 }
@@ -74,14 +93,13 @@ body {
 .linhaQRcode {
 position: fixed;
 width: 20vw;
-bottom: 35%;
-margin-bottom: 3%;
-margin-left: 1%;
+top: 7%;
+
+
 }
 h1{
     position: fixed;
     color: white;
-    text-align: center;
     
    
 
@@ -94,22 +112,27 @@ p{
 
 }
 .textoQRsite {
-    position: absolute;
-    bottom: 45%;
-    margin-left: 4%;
+    position: sticky;   
+    margin-top: 155%;
+    margin-left: 1%;
+    white-space: nowrap ;
 }
 
 .linhaQRcode2 {
 position: absolute;
 width: 20vw;
-bottom: 83%;
+top: 55.5%;
 margin-bottom: 3%;
 margin-left: 1%;
 }
 
+
 .textoQRapp {
-margin-left: 5%;
+position: fixed;
+margin-left: 0%;
 padding-top: 1%;
+top: 0%;
+width: auto;
 }
 
 .NumeroPessoasAcademia {
@@ -145,7 +168,11 @@ scale: 1.8;
     left: 62%;
     top: 52%;
     -webkit-transition: all 0.5s;
+    stroke-width: 50px;
+    -webkit-text-stroke-color: white;
+    
 }
+
 
 .NumeroPessoas_digitos:hover{
     position: absolute;
@@ -165,22 +192,32 @@ scale: 1.8;
 .fa-solid {
     color: white;
     scale: 2;
-    position: fixed;
-    top: 35%;
-    margin: 3%;
+    position: relative;
+    left: 25px;
     -webkit-transition: all 0.5s;
 }
 
 .fa-solid:hover {
     
-    scale: 4;
-   
-    text-shadow: 0 0 20px #1ba4ff;
+
 }       
 
 .downloadp{
-    left: 1.5%;
-    bottom: 52%;
+    white-space: nowrap;
+}
+.div_app{
+width: 50px;
+
+height: 50px;
+z-index: 5;
+position: absolute;
+-webkit-transition: 500ms all;
+margin-left: 1%;
+top: 90%;
+}
+.div_app:hover{
+    scale: 1.5;
+    
 }
 
 a {
@@ -192,17 +229,23 @@ a {
 
 @media screen  and (max-width: 768px) {
     
+
+body{
+    background-image: url('/backgroud\ cell.jpeg');
+}
+
     * {
         padding: 0;
         margin: 0;
-    
+        max-width: 100vw;
+        max-height: 100vh;
     }
     
     
     .qrcode {
         bottom: 27vh;
         scale: 2;
-        left: 27%;
+        left: 30%;
         position: fixed;
         padding: 0;
         margin: 0;
@@ -210,10 +253,9 @@ a {
 
 
     .qrcode2 {
-
         bottom: 27vh;
         scale: 2;
-        left: 60%;
+        left: 62%;
         position: fixed;
         padding: 0;
         margin: 0;
@@ -221,35 +263,44 @@ a {
     .filtropreto2 {
         height: 35%;
         bottom: 6vh;
-        transform: translateX(25%);
+        left: 19%;
         width: 67%;
         border-radius: 10%;
         opacity: 82%;
-        align-self: center;
-        align-content: center;
-        
-
+        position: fixed;
     }
     .textoQRsite {
-        position: absolute;
-        left: 5%;
-        transform: translateX(-50%);
-        bottom: 15%;
-        margin-left: 16vw; /* Ajuste conforme necessário */
-        scale: 0.5;
-    }
+        
+        position: relative;
+        left: 30%;
+        width: auto;
 
-    .linhaQRcode {
-        bottom: 20%;
-        left: 25%;
-        scale: 1.5;
-        padding: 0;
-        margin: 0;
+        margin-top: 0%;
+        top: 30%;
+        scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
 
+    .linhaQRcode {
+        
+        left: 25%;
+        scale: 1.5;
+        top: 79.7%;
+        position: fixed;
+    }
+    
+    .qr1{
+        height: 35%;
+        left: 15%;
+        
+        width: 70%;
+        border-radius: 10%;
+        bottom: 7vh;
+        position: fixed;
+    }
+
     .linhaQRcode2 {
-        bottom: 20%;
+        top: 79.7%;
         left: 58%;
         scale: 1.5;
         padding: 0;
@@ -258,86 +309,90 @@ a {
     }
 
     .textoQRapp {
-        position: absolute;
-        left: 47%;
-        transform: translateX(-50%);
-        bottom: 15%;
-        margin-left: 8vw; /* Ajuste conforme necessário */
+        position: relative;
+        right: 15%;
+        
+        
+        top: 45%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
 
     .fa-solid{
-        top: 85%; /* Mesmo valor que .downloadp */
-        left: 45vw; /* Ajuste conforme necessário */
-        text-align: center;
-        align-items: center;
+       
         position: absolute;
     }
 
     .downloadp{
-        top: 90%;
-        left: 43vw; /* Ajuste conforme necessário */
+        top: 50%;
+        left: 1%;
         position: absolute;
-        text-align: center;
-        align-items: center;
+        
        
     }
 
-    .divdownload {
+
+    .div_app{
+        width: 50px;
+        
+        height: 50px;
+        z-index: 5;
         position: relative;
-        left: 50%;
+        -webkit-transition: 500ms all;
+        
+        top: 85%;
+        scale: 0.9;
+        left: 40%;
+    }
+    
+    .div_app:hover{
+     scale: 1.5;
+            
     }
 
     .Logo{
         
-        top: 0%;
+        left: 0%  ;
+        top: -10%;
         padding: 0%;
         margin: 0%;
-        transform: translateX(-50%);
-        
+        scale: 0.5;
     }
 
 
 
     .NumeroPessoasAcademia {
         scale: 0.6;
-        transform: translateX(-80%);
-        top: 40%;
+        left: 8vw;
+        top: 30%;
         text-align: center;
         text-size-adjust: auto;
         text-shadow: 5px 5px 5px black;
-        white-space: nowrap;
-        align-content: center;
-        align-self: center;
-        
-        
+        text-size-adjust: auto;
     }
 
     .NumeroPessoasAcademia:hover {
-        scale: 0.6;
-        text-shadow: 0px 10px 50px #1ba4ff;
+        scale: 0.8;
     }
 
 
     .NumeroPessoasAcademiaLinha{
         left: 4vw;
         scale: 0.8;
-        top: 49%;
+        top: 40%;
         position: fixed;
         width: 95%;
-        
     }
         .NumeroPessoasAcademiaLinha:hover{
         scale: 0.9;
     }
 
     .NumeroPessoas_digitos {
-        top: 52%;
-        left: 45vw;
+        top: 45%;
+        left: 35vw;
         text-align: center;
         scale: 1.5;
-        z-index: 9;
+        margin: 10%;
     }
 
 
