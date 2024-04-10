@@ -388,7 +388,8 @@ body{
     }
 
     .NumeroPessoas_digitos {
-        top: 45%;
+        top: 40vh;
+        position: absolute;
         left: 35vw;
         text-align: center;
         scale: 1.5;
