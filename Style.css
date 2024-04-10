@@ -269,11 +269,11 @@ a {
     }
 
     .textoQRsite {
-        position: absolute;
-        right: 0%;
+        position: relative;
+        left: 33%;
         padding: 10px 0;
         margin-top: 0%;
-        top: 60%;
+        top: 18%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
