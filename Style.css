@@ -417,7 +417,17 @@ a {
         margin: 10%;
     }
 
+    @media screen  and (max-width: 400px) {
+        .textoQRapp{
+            margin-left: -10%;
 
+        }
+
+        .textoQRsite{
+            margin-left: 0%;
+        }
+    }
+        
 
 }
-    
+
