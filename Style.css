@@ -271,7 +271,7 @@ a {
     .textoQRsite {
         position: relative;
         left: 0vw;
-        margin-left: 30%;
+        margin-left: 35%;
         padding: 10px 0;
         margin-top: 0%;
         top: 43%;
@@ -319,7 +319,7 @@ a {
 
     .textoQRapp {
         position: relative;
-        
+        margin-left: -3%;
         padding: 10px 0;
         float: left;
         top: 43%;
