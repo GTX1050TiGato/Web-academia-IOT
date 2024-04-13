@@ -270,12 +270,14 @@ a {
 
     .textoQRsite {
         position: relative;
-        left: 28%;
+        left: 0vw;
         padding: 10px 0;
         margin-top: 0%;
-        top: 18%;
+        top: 43%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
+        
+        
     }
 
     .linhaQRcode {
@@ -289,11 +291,12 @@ a {
     .qr1{
         height: 35%;
         left: 15%;
-        
+        float: left;
         width: 70%;
         border-radius: 10%;
         bottom: 7vh;
         position: fixed;
+        
     }
     .qr2{
         height: 30%;
@@ -315,10 +318,10 @@ a {
 
     .textoQRapp {
         position: relative;
-        right: 20%;
+        right: 0%;
         padding: 10px 0;
-        
-        top: 40%;
+        float: left;
+        top: 43%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
