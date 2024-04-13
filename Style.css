@@ -121,7 +121,7 @@ p{
 .linhaQRcode2 {
 position: absolute;
 width: 20vw;
-top: 55.5%;
+top: 80.5%;
 margin-bottom: 3%;
 margin-left: 1%;
 }
@@ -209,11 +209,12 @@ scale: 1.8;
 width: 50px;
 
 height: 50px;
-z-index: 5;
-position: absolute;
+margin-top: 15%;
+position: relative;
 -webkit-transition: 500ms all;
-margin-left: 1%;
-top: 110%;
+
+
+
 }
 .div_app:hover{
     scale: 1.5;
