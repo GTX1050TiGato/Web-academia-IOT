@@ -275,7 +275,7 @@ a {
         margin-left: 35%;
         padding: 10px 0;
         margin-top: 0%;
-        top: 43%;
+        top: 60%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
         
@@ -323,7 +323,7 @@ a {
         margin-left: -3%;
         padding: 10px 0;
         float: left;
-        top: 43%;
+        top: 60%;
         scale: 0.5;
         white-space: nowrap; /* Impede a quebra de linha */
     }
